@@ -5,6 +5,7 @@
   right: 0;
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
+  z-index: 1;
 }
 
 .main-navigation__logo-image {
@@ -133,9 +134,8 @@
 }
 
 @media (max-width: 991px) {
-    .main-navigation__mobile-button-image {
-      width: 25px;
-      display: block;
-    }
+  .main-navigation__mobile-button-image {
+    width: 25px;
+    display: block;
   }
-  
+}
